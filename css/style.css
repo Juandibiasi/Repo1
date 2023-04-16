@@ -103,6 +103,22 @@ main section img{
     margin-right: 40px;
 
 }
+
+.figuras-index{
+    margin: 10px;
+    margin-top: 20px;
+}
+    .figcaption-1{
+        background-color: rgba(128, 128, 128, 0.5);
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+        color: white;
+    }
+    .btn-index{
+        background-color: #241caa;
+        color: white;
+    }
+
 .plan-mensual{
     width: 100%;
 }
@@ -118,9 +134,8 @@ footer a{
 .productos{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 10px 30px;
+    justify-content: center;
+    padding: 15px 30px;
 }
     .productos figure{
         width: 30%;
@@ -205,12 +220,54 @@ footer{
         margin-right: 40px;
 
     }
+.h1-contacto{
+    text-align: left;
+    margin-left: 30px;
+}
 .contacto{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: start;
-    align-items: center;
+    justify-content: space-around;
+
 }
+    .contacto-img{
+        width: 35%;
+
+    }
+    .contacto-form{
+        width: 40%;
+
+    }
+    .mapa{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .mapa-1{
+        display: flex;
+        justify-content: center;
+
+    }
+        .mapa-1 p{
+            margin-left: 20px;
+            text-align: center;
+        }
+    
+    .completar{
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+    }
+    .btn-1{
+        background-color: white;
+        margin-top: 10px;
+        font-size: 1.8rem;
+    }
+    .btn-2{
+        background-color: red;
+        margin-top: 10px;
+        font-size: 1.8rem;
+        margin-right: 30px;
+        
+    }
+    
 
 .nosotros{
     display: flex;
@@ -226,25 +283,6 @@ footer{
         text-align: center;
         padding-right: 30px;      
         }
-.mapa{
-    margin-left: 30px;
-    margin-top: 30px;
-
-
-}
-.mapa-1{
-    display: flex;
-
-}
-    .mapa-1 p{
-        margin-left: 20px;
-        width: 30;
-    }
-
-
-.completar{
-    font-size: 1.8rem;
-}
 
 .btn-bg{
     background-color: white;
@@ -372,6 +410,25 @@ footer{
         text-align: center;
         padding-right: 30px;      
         }
-    
-    
+
+    .contacto{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .mapa-1{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+    }
+        .mapa-1 p{
+            margin-left: 0;
+            margin-top: 10px;
+            text-align: center;
+            align-items: center;
+        }
 }
+
+
