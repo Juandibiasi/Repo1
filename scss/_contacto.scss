@@ -1,0 +1,52 @@
+.h1-contacto{
+    text-align: left;
+    margin-left: 30px;
+}
+.contacto{
+    display: flex;
+    justify-content: space-around;
+}
+.contacto-img{
+    width: 35%;
+
+}
+.contacto-form{
+    width: 40%;
+
+}
+.mapa{
+    text-align: center;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.mapa-1{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    p{
+        margin-left: 20px;
+        text-align: center;
+        width: 30%;
+    }
+}
+.iframe-mapa{
+    width: 50vh;
+    height: 40vh;
+}
+
+.completar{
+    font-size: $textSm1;
+    margin-bottom: 10px;
+}
+.btn-1{
+    background-color: white;
+    margin-top: 10px;
+    font-size: $textSm1;
+}
+.btn-2{
+    background-color: red;
+    margin-top: 10px;
+    font-size: $textSm1;
+    margin-right: 30px;
+}

@@ -1,0 +1,121 @@
+@media (width < 768px){
+    .productos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        figure{
+            width: 90%;
+            figcaption{
+                color: white;
+                font-size: 2.2rem;
+                margin-bottom: 5px;
+                padding-right: 10px;
+                background-color: rgba(128, 128, 128, 0.3);
+                width: 80%;
+            }
+            button{
+                background-color: #021F59;
+                color: #F2F2F2;
+                border: none;
+                padding: 6px;
+                border-radius: 5px;
+            }
+        }
+
+    }
+   
+    .productosE{
+        display: flex;  
+        flex-direction: column ;
+        flex-wrap:nowrap; 
+        figure{
+            flex-direction: column;
+            text-align: center;
+            width: 100%;
+            margin-top: 20px;
+            padding: 0;
+            padding-bottom: 20px;
+            align-items: center;
+            display: flex;
+            background-color: rgba(128, 128, 128, 0.3);
+            margin-bottom: 20px;
+            figcaption{
+                text-align: center;
+                color: #021F59;
+                font-size: 2.2rem;
+            }
+            div{
+                p{
+                    width: 450px;
+                    text-align: center;
+                }
+                padding-top: 20px;
+            }
+            p{
+                font-size: 1.8rem;
+            }
+            button{
+                background-color: #021F59;
+                color: #F2F2F2;
+                border: none;
+                padding: 6px;
+                border-radius: 5px;
+                margin-top: 20px; 
+            }
+        }
+        div{
+            figure{
+                flex-direction: column;
+                figcaption{
+                    text-align: center;
+                    padding-right:0px;
+                }
+            }
+            p{
+                padding-right: 0px;
+            }
+        }
+    }
+
+    .nosotros{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        figure{
+            figcaption{
+                color: white;
+                font-size: 2.2rem;
+                text-align: center;
+                padding-right: 30px; 
+            }
+        }
+
+    }
+
+    .contacto{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .mapa-1{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+        p{
+            margin-left: 0;
+            margin-top: 10px;
+            text-align: center;
+            align-items: center; 
+            margin-left: 20px;
+            text-align: center;
+            width: 70%; 
+        }
+    }
+        
+}

@@ -1,0 +1,135 @@
+body{
+    background-image: url(../Imagenes/7c4a5a5ee7b7e5955007391b2ce55665.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+}
+header img{
+    width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+p{
+    color: $keyColor;
+    font-family: 'Roboto', sans-serif;
+    font-weight: $fontRegular;
+    font-size: $textSm;
+    line-height: $textSm1;
+}
+
+h1,h2,h3{
+    margin: 12px 0;
+    }
+
+h1{
+    color: $mainColor;
+    font-size: $textXl;
+    text-shadow: 2px 2px 2px #000;
+}
+
+h2{
+    color: $secondaryColor;
+    font-size: $textLg;
+    text-shadow: 1px 1px 1px #000;
+    }
+
+main section h1{
+    text-align: center;
+}
+main section div h1{
+    text-align: left;
+
+}
+main section h2 a{
+    color: $secondaryColor;
+    font-size: $textLg;
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+        color: $secondaryColor;
+    }
+}
+
+main section table{
+    color: $keyColor;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    border-color: $secondaryColor;
+    tr{
+        font-size: $textMd1;
+    }
+}
+main section label{
+    color: $keyColor;
+    font-size: $textMd;
+}
+main section p{
+    text-align: center;
+}
+main section img{
+    width: 400px;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+
+.figuras-index{
+    margin: 10px;
+    margin-top: 20px;
+}
+    .figcaption-1{
+        background-color: rgba(128, 128, 128, 0.5);
+        font-size: $textSm1;
+        margin-bottom: 10px;
+        color: $keyColor;
+    }
+    .btn-index{
+        background-color: $mainColor;
+        color: $keyColor;
+    }
+
+.texto-fotos-nosotros{
+    color: $keyColor;
+    font-size: $textSm1;
+    margin-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.fotos-nosotros{
+    width: 80%;
+    margin-top: 20px;
+}
+.nosotros{
+    display: flex;
+    justify-content: space-around;
+    figure{
+        figcaption{
+            color: white;
+            font-size: $textMd1;
+            text-align: center;
+            padding-right: 30px;
+        }
+    }
+}
+  
+.btn-bg{
+    background-color: $keyColor;
+    color: black;
+    font-size: $textSm1;
+}
+.fondo{
+    background-image: url(../Imagenes/elegí\ tu\ plan\ mensual.png);
+    width: 80%;
+    margin: auto;
+    padding-bottom: 30px;
+    padding-top: 60px;
+}
+.table{
+    color: $keyColor;
+    width: 70%;
+    margin-right: 50px;
+    text-shadow: 2px 2px 2px #000;
+}

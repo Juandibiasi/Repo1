@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import "_vars";
+@import "_commons";
+@import "_productos";
+@import "_contacto";
+@import "_nav";
+@import "_media";
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+html{font-size: 62.5%;}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(16, 28, 38, 0.8);
+    padding-top: 6px;
+    padding-bottom: 5px;
+    a{
+        text-decoration: none;
+        text-overflow: clip;
+    }
+    svg{
+        width: 30px;
+        fill: #F2F2F2;
+        margin-right: 40px;
+    }
+}

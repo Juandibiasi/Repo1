@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 *{
     font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
+} */
 
-html{font-size: 62.5%;}
+/* html{font-size: 62.5%;}
 
 .botonera{
     background-color: rgba(16, 28, 38);
@@ -28,9 +28,8 @@ html{font-size: 62.5%;}
     .navbar-toggler-icon {
         color: white;
     }
-
-   
-.text-center{
+    */
+/* .text-center{
     text-align: center;
 }
 h1,h2,h3{
@@ -46,10 +45,10 @@ h1{
 h2{
     color: #39c3ef;
     font-size: 3rem;
-    text-shadow: 1px 1px 1px #000;;
+    text-shadow: 1px 1px 1px #000;
+    } */
 
-    }
-main section h2 a{
+/* main section h2 a{
     color: #0378A6;
     font-size: 3rem;
     text-decoration: none;
@@ -64,29 +63,29 @@ p{
     font-weight: 300;
     font-size: 1.6rem;
     line-height: 1.8rem;
-}
-body{
+} */
+/* body{
     background-image: url(../Imagenes/7c4a5a5ee7b7e5955007391b2ce55665.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
     overflow-x: hidden;
-    }
-header img{
+    } */
+/* header img{
     width: 100%;
-}
-nav img{
+} */
+/* nav img{
     width: 180px;
-}
-main section h1{
+} */
+/* main section h1{
     text-align: center;
-}
-main section div h1{
+} */
+/* main section div h1{
     text-align: left;
 
-}
-main section table{
+} */
+/* main section table{
     color: #F2F2F2;
     text-align: center;
     margin: auto;
@@ -95,10 +94,10 @@ main section table{
 }
     main section table tr{
         font-size: 2.5rem;
-    }
+    } */
 
 
-main section label{
+/* main section label{
     color: aliceblue;
     font-size: 2rem;
 }
@@ -110,9 +109,9 @@ main section img{
     margin-top: 30px;
     margin-right: 40px;
 
-}
+} */
 
-.figuras-index{
+/* .figuras-index{
     margin: 10px;
     margin-top: 20px;
 }
@@ -125,21 +124,21 @@ main section img{
     .btn-index{
         background-color: #241caa;
         color: white;
-    }
+    } */
 
-.plan-mensual{
+/* .plan-mensual{
     width: 100%;
-}
+} */
 
-footer a{
+/* footer a{
     text-decoration: none;
     text-overflow: clip;
-}
-#fotos-nosotros{
+} */
+/* #fotos-nosotros{
     text-align: center;
-}
+} */
 
-.productos{
+/* .productos{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -165,9 +164,9 @@ footer a{
             border: none;
             padding: 6px;
             border-radius: 5px;
-        }
+        } */
 
-.productosE{
+/* .productosE{
     display: flex;  
     flex-direction: column ;
     flex-wrap: wrap;
@@ -214,8 +213,8 @@ footer a{
             padding: 6px;
             border-radius: 5px;
             margin-top: 20px;
-        }
-footer{
+        } */
+/* footer{
     display: flex;
     justify-content: center;
     background-color: rgba(16, 28, 38, 0.8);
@@ -227,8 +226,8 @@ footer{
         fill: #F2F2F2;
         margin-right: 40px;
 
-    }
-.h1-contacto{
+    } */
+/* .h1-contacto{
     text-align: left;
     margin-left: 30px;
 }
@@ -283,9 +282,9 @@ footer{
         font-size: 1.8rem;
         margin-right: 30px;
         
-    }
+    } */
 
-.texto-fotos-nosotros{
+/* .texto-fotos-nosotros{
     color: white;
     font-size: 1.8rem;
     margin-top: 20px;
@@ -316,9 +315,9 @@ footer{
     background-color: white;
     color: black;
     font-size: 1.8rem;
-}
+} */
 
-.fondo{
+/* .fondo{
     background-image: url(../Imagenes/elegí\ tu\ plan\ mensual.png);
     width: 80%;
     margin: auto;
@@ -330,11 +329,11 @@ footer{
     width: 70%;
     margin-right: 50px;
     text-shadow: 2px 2px 2px #000;
-    }
+    } */
 
 
 
-@media (width < 768px){
+/* @media (width < 768px){
     .productos{
         display: flex;
         flex-direction: column;
@@ -462,7 +461,7 @@ footer{
             text-align: center;
             width: 70%;
         } 
-}
+} */
 
   
 
