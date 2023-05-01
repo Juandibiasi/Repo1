@@ -13,11 +13,7 @@ header img{
     text-align: center;
 }
 p{
-    color: $keyColor;
-    font-family: 'Roboto', sans-serif;
-    font-weight: $fontRegular;
-    font-size: $textSm;
-    line-height: $textSm1;
+    @include textos($textSm1,$keyColor,$fontRegular,$textSm1)
 }
 
 h1,h2,h3{
@@ -28,21 +24,54 @@ h1{
     color: $mainColor;
     font-size: $textXl;
     text-shadow: 2px 2px 2px #000;
+    font-weight: $fontBold;
+}
+
+.h1-i{
+    @include textos($textSm1,$keyColor,$fontRegular,$textSm1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    opacity: .6;
+    font-size: $textSm-1;
+}
+
+.p1-i{
+    background-color: rgba(128, 128, 128, 0.3);
+    font-weight: $fontP;
+    color: $mainColor;
+    font-size: $textXl;
+    text-shadow: 2px 2px 2px #000;
+    span{
+        color: $secondaryColor;
+    }
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+  
+.h1-n{
+    background-color: rgba(128, 128, 128, 0.3);
+    margin-bottom: 15px
 }
 
 h2{
     color: $secondaryColor;
     font-size: $textLg;
     text-shadow: 1px 1px 1px #000;
-    }
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
 
 main section h1{
     text-align: center;
 }
+
 main section div h1{
     text-align: left;
-
 }
+
 main section h2 a{
     color: $secondaryColor;
     font-size: $textLg;
@@ -50,6 +79,7 @@ main section h2 a{
     &:hover{
         text-decoration: underline;
         color: $secondaryColor;
+        filter: brightness(0.8);
     }
 }
 
@@ -71,17 +101,36 @@ main section p{
     text-align: center;
 }
 main section img{
-    width: 400px;
-    margin-top: 30px;
-    margin-right: 40px;
+    @include imagen(30%,30px,40px)
 }
+
+.p-a{
+    @include textos($textSm,$keyColor,$fontRegular,$textMd1);
+    display: inline-block;
+    max-width: 70%;
+    margin: auto;
+    font-weight: bold;
+    color: $keyColor;
+    background-color: rgba(35, 28, 170, 0.768);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.p-e{
+    @include textos($textSm1,$keyColor,$fontRegular,$textMd1);
+    max-width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
 
 .figuras-index{
     margin: 10px;
     margin-top: 20px;
 }
     .figcaption-1{
-        background-color: rgba(128, 128, 128, 0.5);
+        background-color: rgba(128, 128, 128, 0.2);
         font-size: $textSm1;
         margin-bottom: 10px;
         color: $keyColor;
@@ -89,7 +138,10 @@ main section img{
     .btn-index{
         background-color: $mainColor;
         color: $keyColor;
+        font-size: $textSm;
     }
+
+
 
 .texto-fotos-nosotros{
     color: $keyColor;
@@ -99,8 +151,9 @@ main section img{
     padding-right: 40px;
 }
 .fotos-nosotros{
-    width: 80%;
+    
     margin-top: 20px;
+    height: 30vh;
 }
 .nosotros{
     display: flex;
@@ -132,4 +185,5 @@ main section img{
     width: 70%;
     margin-right: 50px;
     text-shadow: 2px 2px 2px #000;
+    margin-bottom: 70px;
 }

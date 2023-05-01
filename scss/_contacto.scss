@@ -1,6 +1,7 @@
 .h1-contacto{
     text-align: left;
-    margin-left: 30px;
+    padding-left: 30px;
+    background-color: rgba(128, 128, 128, 0.3);
 }
 .contacto{
     display: flex;
@@ -14,11 +15,13 @@
     width: 40%;
 
 }
+  
 .mapa{
     text-align: center;
     margin-top: 30px;
     padding-left: 20px;
     padding-right: 20px;
+    margin-bottom: 30px;
 }
 .mapa-1{
     display: flex;
@@ -39,14 +42,4 @@
     font-size: $textSm1;
     margin-bottom: 10px;
 }
-.btn-1{
-    background-color: white;
-    margin-top: 10px;
-    font-size: $textSm1;
-}
-.btn-2{
-    background-color: red;
-    margin-top: 10px;
-    font-size: $textSm1;
-    margin-right: 30px;
-}
+

@@ -1,0 +1,31 @@
+.btn-gral{
+    margin-top: 10px;
+    font-size: $textSm1;
+}
+
+.btn-form-1{
+    @extend .btn-gral;
+    background-color: $keyColor;
+}
+
+.btn-form-2{
+    @extend .btn-gral;
+    background-color: red;
+    margin-right: 30px;
+}
+
+@mixin textos($size,$color,$weight,$height){
+    font-family: $mainFont;
+    font-size: $size;
+    color: $color;
+    font-weight: $weight;
+    line-height: $height;
+}
+
+@mixin imagen($width, $marginTop, $marginRight){
+    width: $width;
+    margin-top: $marginTop;
+    margin-right: $marginRight;
+}
+  
+

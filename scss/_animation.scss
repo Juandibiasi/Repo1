@@ -1,0 +1,28 @@
+.contacto-form {
+    form {
+      .form-group {
+        label {
+          animation: vibrar-x 0.4s ease-in-out infinite;
+        }
+      }
+    }
+  }
+  
+  @keyframes vibrar-x {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-3px);
+    }
+    50% {
+      transform: translateX(0);
+    }
+    75% {
+      transform: translateX(3px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
