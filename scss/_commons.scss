@@ -53,11 +53,14 @@ h1{
   
 .h1-n{
     background-color: rgba(128, 128, 128, 0.3);
-    margin-bottom: 15px
+    margin-bottom: 15px;
+    font-weight: $fontP;
 }
 .h1-e{
     background-color: rgba(128, 128, 128, 0.3);
-    margin-bottom: 15px
+    margin-bottom: 15px;
+    font-weight: $fontP;
+    
 }
 
 h2{
@@ -155,21 +158,16 @@ main section img{
     padding-right: 40px;
 }
 .fotos-nosotros{
-    
-    margin-top: 20px;
-    height: 30vh;
+    margin-top: 10px;
+    object-fit: scale-down;
 }
-.nosotros{
-    display: flex;
-    justify-content: space-around;
-    figure{
-        figcaption{
-            color: white;
-            font-size: $textMd1;
-            text-align: center;
-            padding-right: 30px;
-        }
-    }
+
+.nombres{
+    color: $secondaryColor;
+    font-size: $textMd1;
+    margin-top: 10px;
+    line-height: $textMd1;
+    
 }
   
 .btn-bg{

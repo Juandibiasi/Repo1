@@ -1,28 +1,36 @@
 .contacto-form {
-    form {
-      .form-group {
-        label {
-          animation: vibrar-x 0.4s ease-in-out infinite;
-        }
+  form {
+    .form-group {
+      label {
+        animation: mover .4s ease-in-out infinite, quieto 5s ease-in-out 3s infinite;
       }
     }
   }
-  
-  @keyframes vibrar-x {
-    0% {
-      transform: translateX(0);
-    }
-    25% {
-      transform: translateX(-3px);
-    }
-    50% {
-      transform: translateX(0);
-    }
-    75% {
-      transform: translateX(3px);
-    }
-    100% {
-      transform: translateX(0);
-    }
+}
+
+@keyframes mover {
+  0% {
+    transform: translateX(0);
   }
-  
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes quieto {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

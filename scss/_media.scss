@@ -1,3 +1,8 @@
+@media (width < 1500px) {
+    .fondo {
+      background-image: none;
+    }
+  }
 @media (width < 1200px){
     .productosE{
         figure{
@@ -23,7 +28,14 @@
         }
     }
 }
+@media (width < 992px){
+    .texto-fotos-nosotros{
+        font-size: $textSm;
+        padding: 0;
+    }
+}
 @media (width < 768px){
+    
     .p-e{
         font-size: $textSm;
     }
@@ -93,23 +105,6 @@
         }
     }
 
-    .nosotros{
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-        figure{
-            figcaption{
-                color: white;
-                font-size: $textMd;
-                text-align: center;
-                padding-right: 30px; 
-            }
-        }
-
-    }
-
     .contacto{
         display: flex;
         flex-direction: column;
@@ -144,7 +139,8 @@
         width: 80%;
         margin: auto;
     }
-        
+
+           
 }
 
 @media screen and (max-width: 700px) {
@@ -181,7 +177,11 @@
     }
   }
   
-
+@media (width < 575px){
+    .figure{
+        margin-top: 20px;
+    }
+}
 @media (width < 420px){
     .p1-i{
         font-size: $textLg-1;
