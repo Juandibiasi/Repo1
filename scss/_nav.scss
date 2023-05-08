@@ -24,4 +24,26 @@ nav img{
     color: white;
 }
 
+.custom-toggler {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: $secondaryColor;
+    font-size: 2rem;
+    
+    &:focus {
+    outline: none;
+    }
+    
+    &-icon {
+    display: none;
+    }
+    
+    &:before {
+    content: '\2630';
+    font-size: 2rem;
+    }
+    }
+
+
    

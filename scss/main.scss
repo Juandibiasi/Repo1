@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
-
 @import "_vars";
 @import "_mixins";
 @import "_commons";
@@ -8,12 +7,15 @@
 @import "_nav";
 @import "_media";
 @import "_animation";
+@import "_tarifass";
+
 
 *{
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
 }
 html{font-size: 62.5%;}
+
 footer{
     display: flex;
     justify-content: center;
@@ -27,7 +29,8 @@ footer{
     svg{
         width: 30px;
         fill: #F2F2F2;
-        margin-right: 40px;
+        margin-right: 20px;
+        margin-left: 20px;
     }
 }
 

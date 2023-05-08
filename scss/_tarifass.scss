@@ -1,0 +1,62 @@
+.fondo{
+    background-image: url(../Imagenes/elegí\ tu\ plan\ mensual.png);
+    background-size: cover;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 65px;
+    padding-top: 50px;
+}
+.table{
+    color: $keyColor;
+    width: 70%;
+    margin-right: 50px;
+    text-shadow: 2px 2px 2px #000;
+    margin-bottom: 70px;
+}
+.container-1 {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    .table {
+        width: 100%;
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin: 0;
+        padding: 0;
+        table-layout: fixed;
+        thead{
+            tr{
+                text-transform: uppercase;
+                background-color: $mainColor;
+                th{
+                    font-size: $textSm1;
+                    padding: 8px;
+                    text-align: center;
+                }
+            }
+        }
+        tr{
+            background-color: $secondaryColor;
+            border: 1px solid black;
+        }
+        tbody{
+            tr:hover{
+                background-color: rgba(0, 0, 0, 0.2);
+            }
+            td:hover{
+                background-color: rgba(0, 0, 0, 0.3);
+            }
+            
+        }
+    }
+}
+
+.table td {
+    font-size: $textSm1;
+    padding: 8px;
+    text-align: center;
+}
+
+
+
+  

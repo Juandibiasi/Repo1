@@ -1,35 +1,42 @@
-@media (width < 768px){
-    .productos{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
+@media (width < 1200px){
+    .productosE{
         figure{
-            width: 90%;
-            figcaption{
-                color: white;
-                font-size: 2.2rem;
-                margin-bottom: 5px;
-                padding-right: 10px;
-                background-color: rgba(128, 128, 128, 0.3);
-                width: 80%;
+            img{
+                margin-top: auto;
+                margin-bottom: auto;
+                padding-top: 20px;
             }
-            button{
-                background-color: #021F59;
-                color: #F2F2F2;
-                border: none;
-                padding: 6px;
-                border-radius: 5px;
+            p{
+                font-size: 1.5rem;
             }
         }
-
+        div{
+            figure{
+                img{
+                    margin-top: auto;
+                    margin-bottom: auto;
+                }
+                p{
+                    font-size: 1.5rem;
+                }
+            }
+        }
     }
-   
+}
+@media (width < 768px){
+    .p-e{
+        font-size: $textSm;
+    }
     .productosE{
         display: flex;  
         flex-direction: column ;
         flex-wrap:nowrap; 
         figure{
+            img{
+                width: 80%;
+                margin: auto;
+                padding-top: 25px;
+            }
             flex-direction: column;
             text-align: center;
             width: 100%;
@@ -42,18 +49,21 @@
             margin-bottom: 20px;
             figcaption{
                 text-align: center;
-                color: #021F59;
-                font-size: 2.2rem;
+                color: $secondaryColor;
+                font-size: $textMd;
             }
             div{
                 p{
-                    width: 450px;
+                    width: 80%;
+                    margin: auto;
                     text-align: center;
                 }
                 padding-top: 20px;
             }
             p{
-                font-size: 1.8rem;
+                font-size: $textSm1;
+                width: 80%;
+                margin: auto;
             }
             button{
                 background-color: #021F59;
@@ -70,11 +80,16 @@
                 figcaption{
                     text-align: center;
                     padding-right:0px;
+                    margin-top: 10px;
+                }
+                p{
+                    margin: auto;
+                    width: 80%;
+                    padding: 0;
+                    font-size: 1.5rem;
                 }
             }
-            p{
-                padding-right: 0px;
-            }
+            
         }
     }
 
@@ -87,7 +102,7 @@
         figure{
             figcaption{
                 color: white;
-                font-size: 2.2rem;
+                font-size: $textMd;
                 text-align: center;
                 padding-right: 30px; 
             }
@@ -117,5 +132,72 @@
             width: 70%; 
         }
     }
+    .h1-e{
+        font-size: $textLg-1;
+    }
+
+    .contacto-form{
+        width: 80%;
+        margin: auto;
+    }
+    .contacto-img{
+        width: 80%;
+        margin: auto;
+    }
         
+}
+
+@media screen and (max-width: 700px) {
+
+    .table {
+      border: 0px;
+      thead {
+        display: none;
+      }
+      tr {
+        margin-bottom: 8px;
+        border-bottom: 4px solid black;
+        display: block;
+        td {
+          display: block;
+          border-bottom: 1px solid black;
+          text-align: right;
+          &:last-child {
+            border-bottom: 0px;
+          }
+          &::before {
+            content: attr(data-label);
+            font-weight: bold;
+            text-transform: uppercase;
+            float: left;
+            color: $keyColor;
+            box-shadow: 0;
+          }
+        }
+        th, td {
+          font-size: $textSm-1;
+        }
+      }
+    }
+  }
+  
+
+@media (width < 420px){
+    .p1-i{
+        font-size: $textLg-1;
+    }
+    .p-a{
+        font-size: $textSm-1;
+    }
+    .productosE{
+        div{
+            figure{
+                div{
+                    width: 100%;
+                    margin: auto;
+                    padding: 0;
+                }
+            }
+        }
+    }
 }
