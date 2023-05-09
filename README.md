@@ -28,4 +28,12 @@ Pero ya teniamos casi todo listo, solo quedaban los ultimos retoques para el fin
 
 ![image](https://github.com/Juandibiasi/Repo1/assets/130708899/8833facc-9903-4c03-964f-24c3259e83a8)
 
+Solo nos quedaba adquirir un hosting, aunque este fuera gratuito y lo hicimos! 😁😂😜
+
+![image](https://github.com/Juandibiasi/Repo1/assets/130708899/984c9e10-ae29-4b14-a2ef-c51b052201bb)
+![image](https://github.com/Juandibiasi/Repo1/assets/130708899/046abe71-021f-42a7-af19-198789fa1c6b)
+
+Gracias a todos por colaborar en este proyecto, principalmente a la docente y tutores que siempre han estado ahi para nosotros! 🙏☺😎
+
+
 
