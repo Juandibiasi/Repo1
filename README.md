@@ -35,5 +35,7 @@ Solo nos quedaba adquirir un hosting, aunque este fuera gratuito y lo hicimos! �
 
 Gracias a todos por colaborar en este proyecto, principalmente a la docente y tutores que siempre han estado ahi para nosotros! 🙏☺😎
 
+https://atenascrew.netlify.app/index.html
+
 
 
