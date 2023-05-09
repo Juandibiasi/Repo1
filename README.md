@@ -1,5 +1,5 @@
 # Repo1(Atenas Crew)
-Bienvenidos al proyecto Atenas Crew. Este proyecto comenzo con la necesidad de proporcionar un sitio web para proporcionar informacion al usuario. Esperamos que este proyecto sea de tu agrado e insiración y agradecemos cualquier contribución o comentario que puedas tener.	
+Bienvenidos al proyecto Atenas Crew. Este proyecto comenzo con la necesidad de proporcionar un sitio web para brindar informacion al usuario. Esperamos que este proyecto sea de tu agrado e insiración y agradecemos cualquier contribución o comentario que puedas tener.	
 
 Primeros Wireframes
 
